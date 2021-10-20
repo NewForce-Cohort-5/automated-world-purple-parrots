@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 1em;
+     ;
 }
 .column1{
     background: white;
@@ -28,6 +29,7 @@ body {
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
+   
 }
 .column2{
     background: white;
