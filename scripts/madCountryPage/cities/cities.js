@@ -3,7 +3,7 @@
     return `
            <div class="cities">
             <ul>
-            <li>${cities.city}</li>
+            <li><div>${cities.city}</div></li>
             </ul>
             </div>
         

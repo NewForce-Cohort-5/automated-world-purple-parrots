@@ -17,5 +17,6 @@ export const celebritiesList = () => {
     }
 
     // Add to the existing HTML in the content element
-    contentPrint.innerHTML += `<h2>Celebrities</h2>${celebHTMLRepresentations}`
+    contentPrint.innerHTML += `<h2>Celebrities</h2><ul>${celebHTMLRepresentations}</ul>`
 }
+
