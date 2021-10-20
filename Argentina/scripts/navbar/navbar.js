@@ -1,9 +1,10 @@
 const navBar = () => document.querySelector(".navigation").innerHTML = `
 <div class=".navigation">
-<a class="active" href="#Argentina">Argentina</a>
-<a href="#Madagascar">Madagascar</a>
-<a href="#Tuvalu">Tuvalu</a>
-<a href="#Poland">Poland</a>
+<a class="home" href="index.html">Home</a>
+<a class="active" href="Argentina.html">Argentina</a>
+<a href="mad.html">Madagascar</a>
+<a href="Tuvalu.html">Tuvalu</a>
+<a href="Poland.html">Poland</a>
 </div>`
 
 navBar()
