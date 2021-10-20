@@ -4,6 +4,8 @@ import { useCity } from "./Cities/CityDataProvider.js";
 import { CityList } from "./Cities/cityList.js";
 import { useLandmark } from "./Landmarks/LandmarkDataProvider.js";
 import { LandmarkList } from "./Landmarks/LandmarksList.js";
+import { navBar, footer, logo } from "./navbar/navbar.js";
+
 
 const allTheCelebs = useCelebrity()
 
@@ -28,4 +30,7 @@ for (const landmark of allTheLandmarks){
 }
 
 LandmarkList()
+navBar()
+footer()
+logo()
 
