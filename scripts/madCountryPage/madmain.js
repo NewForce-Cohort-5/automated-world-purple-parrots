@@ -8,6 +8,8 @@ import { citiesList } from "./cities/citiesList.js"
 import { useCeleb } from "./celebrities/celebritiesDataProvider.js"
 import { celebritiesList} from "./celebrities/celebritiesList.js"
 
+import { navBar, footer, logo } from "/Argentina/scripts/navbar/navbar.js"
+
 const allTheCities = useCity()
 
 for (const city of allTheCities) {
@@ -31,3 +33,6 @@ for (const celeb of allTheCelebs) {
 }
 
 celebritiesList()
+logo()
+navBar()
+footer()
