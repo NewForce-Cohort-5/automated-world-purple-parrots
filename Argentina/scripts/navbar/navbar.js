@@ -4,7 +4,7 @@ export const navBar = () => document.querySelector(".navigation").innerHTML = `
 <a class="active" href="Argentina.html">Argentina</a>
 <a href="mad.html">Madagascar</a>
 <a href="Tuvalu.html">Tuvalu</a>
-<a href="Poland.html">Poland</a>
+<a href="poland.html">Poland</a>
 </div>`
 
 // navBar()
