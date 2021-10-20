@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+}
+
+.bottom-lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hyper-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    align-items: center;
+}
