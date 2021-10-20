@@ -15,3 +15,33 @@ body {
 .img {
     align-items: center;
 }
+.country-info{
+	display: flex;
+	justify-content:space-evenly;
+	font-size: x-large;
+	background-color: coral;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.purple-image{
+	width: 25vw;
+}
+
+.navigation{
+	font-style: oblique;
+	background-color: coral;
+	font-size: xx-large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	border: 5px black solid;
+}
+
+.footer{
+	font-size: xx-large;
+	background-color: coral;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: 5px black solid;
+	text-align: center
+}
+
