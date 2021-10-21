@@ -32,6 +32,17 @@ for (const celeb of allTheCelebs) {
     console.log(celeb)
 }
 
+
+//image on mad.html
+const mad = () => { document.querySelector(".images").innerHTML = `
+<div class="">
+                    
+                <a href="mad.html"><img src="https://www.telegraph.co.uk/content/dam/Travel/2017/june/cycling%20131314241_Cultura%20Exclusive_Madagascar-xlarge.jpg?imwidth=640" alt="trees in Madagaskar"  class="img"></a>  
+            
+`
+}
+ 
+mad()
 celebritiesList()
 logo()
 navBar()

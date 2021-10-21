@@ -1,7 +1,7 @@
  
 const tuvalu = () => { document.querySelector(".tuvalu").innerHTML = `
 <div class="">
-                    <h2>This is a country</h2>
+                    <h2>Tuvalu</h2>
                 <a href="Tuvalu.html"><img src="images/image1.jpg" width="100" height="100" class="img"></a>  
                 <p>Some text about the country.</p>            
                 </div>
@@ -29,9 +29,9 @@ const argentina = () => { document.querySelector(".argentina").innerHTML = `
  
 const poland = () => { document.querySelector(".poland").innerHTML = `
 <div class="">
-                    <h2>This is a country</h2>
-                <a href="Poland.html"><img src="images/image4.jpg" width="100" height="100" class="img"></a>  
-                <p>Some text about the country.</p>            
+                    <h2>Poland</h2>
+                <a href="Poland.html"><img src="poland_for_newforce.jfif"  class="img"></a>  
+                <p>oland, officially the Republic of Poland, is a country located in Central Europe. It is divided into 16 administrative provinces, covering an area of 312,696 km2 (120,733 sq mi), and has a largely temperate seasonal climate.</p>            
                 </div>
 `
 }
