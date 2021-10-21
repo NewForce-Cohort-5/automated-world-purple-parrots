@@ -1,6 +1,9 @@
 import { CelebList } from "./Celebrities/celebritiesList.js";
 import { CityList } from "./Cities/citiesList.js";
 import { LandmarkList } from "./Landmarks/landmarksList.js";
+import { navBar, footer, logo } from "./Argentina/scripts/navbar/navbar.js";
+
+
 
 //let footer = "This is a footer"
 
@@ -8,3 +11,7 @@ import { LandmarkList } from "./Landmarks/landmarksList.js";
 CelebList()
 CityList()
 LandmarkList()
+
+navBar()
+footer()
+logo()

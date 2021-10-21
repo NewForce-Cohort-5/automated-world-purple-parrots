@@ -4,7 +4,7 @@ import { Celeb } from "./Celebrities.js";
 
 export const CelebList = () => {
 
-    const element = document.querySelector(".celeb-names")
+    const element = document.querySelector(".cities")
     const celebZz = useCeleb()
 
     let celebHTMLPush = ""

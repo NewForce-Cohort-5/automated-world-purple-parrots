@@ -4,7 +4,7 @@ import { Landmark } from "./landmarks.js";
 
 export const LandmarkList = () => {
 
-    const element = document.querySelector(".landmark-names")
+    const element = document.querySelector(".landmarks")
     const landmarkZz = useLandmark()
 
     let landmarkHTMLPush = ""

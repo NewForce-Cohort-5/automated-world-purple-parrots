@@ -1,3 +1,5 @@
+
+
 export const navBar = () => document.querySelector(".navigation").innerHTML = `
 <div class=".navigation">
 <a class="home" href="index.html">Home</a>

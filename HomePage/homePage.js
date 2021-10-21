@@ -2,8 +2,8 @@
 const tuvalu = () => { document.querySelector(".tuvalu").innerHTML = `
 <div class="">
                     <h2>Tuvalu</h2>
-                <a href="Tuvalu.html"><img src="images/image1.jpg" width="100" height="100" class="img"></a>  
-                <p>Some text about the country.</p>            
+                    <a href="Tuvalu.html"><img src="https://cdn.images.express.co.uk/img/dynamic/106/590x/secondary/Tuvalu-3108477.webp?r=1624083732567" alt="Tuvalu island"  class="img"></a>  
+                <p>This is an island, its name sounds like a refreshing drink but its a pretty cool island.</p>            
                 </div>
 `
 }
