@@ -1,7 +1,9 @@
 import { CelebList } from "./Celebrities/celebritiesList.js";
 import { CityList } from "./Cities/citiesList.js";
 import { LandmarkList } from "./Landmarks/landmarksList.js";
-import { navBar, footer, logo } from "./Argentina/scripts/navbar/navbar.js";
+import {  footer, logo, navBar } from "../../Argentina/scripts/navbar/navbar.js";
+
+
 
 
 

@@ -4,7 +4,7 @@ import { City } from "./cities.js";
 
 export const CityList = () => {
 
-    const element = document.querySelector(".city-names")
+    const element = document.querySelector(".cities")
     const cityZz = useCity()
 
     let cityHTMLPush = ""
