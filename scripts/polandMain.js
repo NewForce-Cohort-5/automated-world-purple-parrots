@@ -11,7 +11,7 @@ import { CityList } from "./polandmain/cities/citiesList.js";
 // import { useCeleb } from "./polandmain/celebrities/celebrityDataProvider.js";
 import { CelebList } from "./polandmain/celebrities/celebrityList.js";
 // import { Landmark } from "./polandmain/landmarks/landmark.js";
-
+import { navBar, footer, logo } from "/Argentina/scripts/navbar/navbar.js"
 // import { navBar, footer, logo } from "./Argentina/scripts/navbar/navbar.js"
 
 // const allTheCities = useCity()
@@ -32,8 +32,8 @@ import { CelebList } from "./polandmain/celebrities/celebrityList.js";
 //     console.log(celeb)
 // }
 CelebList()
-// logo()
-// navBar()
-// footer()
+logo()
+navBar()
+footer()
 CityList()
 landmarkList()
