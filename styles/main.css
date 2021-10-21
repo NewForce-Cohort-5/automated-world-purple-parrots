@@ -1,19 +1,66 @@
-body {
-    background-color: coral;
-}
-
-.bottom-lists {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.hyper-link {
+.country-info {
     display: flex;
     justify-content: space-between;
 }
 
-.img {
-    align-items: center;
+body {
+   background-image: url(https://i.fbcd.co/products/resized/resized-750-500/38143a8506d854857b8178c3767368f8b0c394926ee568e3e725bd8c0a6f5556.jpg);
+   ;
+   background-size: 100vw;
+}
+
+
+.hyper-link {
+    
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border: dotted 1px black;  
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+     ;
+}
+.column1{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+   
+}
+.column2{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+.column3{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+.column4{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+
+.img{
+    width: 15vw;
 }
 .country-info{
 	display: flex;
@@ -45,3 +92,9 @@ body {
 	text-align: center
 }
 
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
