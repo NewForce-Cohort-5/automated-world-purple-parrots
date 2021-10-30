@@ -1,0 +1,109 @@
+.country-info {
+    display: flex;
+    justify-content: space-between;
+}
+.country-information{
+  
+    display: flex;
+	justify-content:space-evenly;
+	font-size: x-large;
+	background-color: coral;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body {
+   background-image: url(https://i.fbcd.co/products/resized/resized-750-500/38143a8506d854857b8178c3767368f8b0c394926ee568e3e725bd8c0a6f5556.jpg);
+   ;
+   background-size: 100vw;
+}
+
+
+.hyper-link {
+    
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border: dotted 1px black;  
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+     ;
+}
+.column1{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+   
+}
+.column2{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+.column3{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+.column4{
+    background: white;
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+
+.img{
+    width: 15vw;
+}
+.country-info{
+	display: flex;
+	justify-content:space-evenly;
+	font-size: x-large;
+	background-color: coral;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.purple-image{
+	width: 25vw;
+}
+
+.navigation{
+	font-style: oblique;
+	background-color: coral;
+	font-size: xx-large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	border: 5px black solid;
+}
+
+.footer{
+    flex-direction: row;
+	font-size: xx-large;
+	background-color: coral;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: 5px black solid;
+	text-align: center
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
